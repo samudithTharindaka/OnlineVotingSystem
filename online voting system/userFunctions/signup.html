@@ -1,0 +1,72 @@
+<html>
+<head>
+<link rel = "stylesheet" href="../src/css/loginSignup.css">
+<script src="../src/jss/scriptlogin.js"></script>
+<link rel="icon" href="../src/images/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+	<div class="form">
+		<h1>Sign up</h1>
+	
+			<!-- Sign Up Form -->
+		<form action='../backend/addusers.php' method="post">
+			<label>First Name</label></br>
+			<input type="text" class="inputfield" placeholder="Enter Your First Name"  name="fname" required><br/><br/>
+		
+			<label>Last Name</label></br>
+			<input type="text" class="inputfield" placeholder="Enter Your Last Name"  name="sname" required><br/><br/>
+		
+			<label>Email Address</label></br>
+			<input type="email" class="inputfield" placeholder="Enter Your Email" title="Enter Valid Email Address"  name="mail" required><br/><br/>
+		
+			<label>Password</label></br>
+			<input type="password" class="inputfield" id="pwd" placeholder="Enter Your Password"  title="Your Password must contain minimum 8 characters including atleast an Upper case, a Lower case and a Number"  name="pw" required><br/><br/>
+		
+			<label>Re-Enter Password</label></br>
+			<input type="password" class="inputfield" id="rpwd" placeholder="Re-Enter Your Password" required>
+	
+		<div class="terms">
+			<input type="checkbox" id="cbox" onclick="enableButton()" required>
+			<label for="cbox">I agree these <a href="#">Terms & Conditions</a></label>
+		</div>
+		
+			<center><input type="submit" class="signup" onclick="return checkPassword()" value="Sign Up">
+		</form>
+				
+			<button><a href="../index.php" class="btn">Cancel</a></button>
+		
+		
+		<div class="member">
+		Already a Member? <a href="../login/login.html">Login Here</a></label>
+		</div>	
+	</div>
+
+  <script>
+  	//Functions to validate password 
+        function checkPassword() {
+            var password = document.getElementById("pwd").value;
+            var confirmPassword = document.getElementById("rpwd").value;
+            var checkbox = document.getElementById("cbox");
+
+            if (password.length < 8) {
+                alert("Password must be at least 8 characters long.");
+                return false;
+            }
+
+           
+    //Check whether the passwords match
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+
+            if (!checkbox.checked) {
+                alert("Please agree to the Terms & Conditions.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

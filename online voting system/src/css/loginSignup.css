@@ -1,0 +1,102 @@
+ body{
+	 background:linear-gradient(#FD0054 ,#2B2024);
+	 padding-top: 10vh;
+ }
+ 
+ .form{
+	 width: 330px;
+	 padding: 20px 20px 15px 33px;
+	 margin: 50px auto;
+	 background-color: #FBF9FA;
+	 border-radius: 10px;
+	 box-shadow:0 20px 35px rgba(0,0,0,0.1);
+	 font-family: Sans-serif; 
+	 font-size: 13px;
+
+ }
+ 
+ h1{
+	font-size: 25px;
+	color: #2B2024;
+	margin-bottom: 20px;
+	font-family: Sans-serif;
+	text-align:center;
+ }
+ 
+ .inputfield{
+	 width:95%;
+	 outline: none;
+	 border:none;
+	 padding: 12px 20px;
+	 margin-top:5px;
+	 border-radius:20px;
+	 background: #e4e4e4;
+	 font-size: 11px;
+ }
+  input:focus{
+	 border:1px solid;
+ }
+ 
+ button{
+	 font-size: 10px;
+	 margin:5px 15px 5px 15px;
+	 border-radius: 20px;
+	 outline: none;
+	 border: none;
+	 width: 30%;
+	 background: #2B2024;
+	 color: #FBF9FA;
+	 padding: 10px;
+	 text-decoration: none;
+ }
+ 
+ .signup{
+	 font-size: 10px;
+	 margin:5px 15px 5px 15px;
+	 border-radius: 20px;
+	 outline: none;
+	 border: none;
+	 width: 30%;
+	 background: #2B2024;
+	 color: #FBF9FA;
+	 padding: 10px;
+	 text-decoration: none;
+	 cursor: pointer;
+ }
+ 
+ button:hover{
+	 background: #FD0054;
+ }
+ 
+ .btn{
+	text-align:center;
+	text-decoration:none;
+	color:white; 
+ }
+ 
+  .terms{
+	padding:15px 0px 20px;
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	}
+	
+.terms a{
+	text-decoration:none;
+}
+ 
+ .member{
+	 padding:15px 0px 10px;
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	}
+	
+.member a{
+	text-decoration:none;
+}
+
+
+h5{
+	text-align:center;
+}

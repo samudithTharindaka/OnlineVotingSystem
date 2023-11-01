@@ -1,0 +1,85 @@
+/*color white FBF9FA red FD0054 red dark A80038 black 2B2024*/
+
+.div-padding{
+	padding-left: 10%;
+	padding-top: 10%;
+
+}
+/*color white FBF9FA red FD0054 red dark A80038 black 2B2024*/
+.landing-content{
+	height: 100vh;
+	width: 100%;
+	background-image:url("../images/image12.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 1%;
+}
+.div-padding>h1{
+	font-size:90px;
+	color: #FBF9FA;
+}
+.div-padding>p{
+	font-size: 25px;
+	line-height: 30px;
+	color: #FBF9FA
+}
+
+
+/*navbar*/
+.nav1{
+	text-align: center;
+	color: #FBF9FA ;
+
+}
+.nav1 a {
+	color:#FBF9FA;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.navbar {
+  z-index: 5;
+  width: 100%;
+  background-color: gray;
+ overflow: auto;
+}
+
+.navbar-content{
+	padding-left: 15%;
+	padding-right: 15%;
+}s
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.overlay{
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.section-4{
+	background-color:#2B2024;
+	height: 50vh; 
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+

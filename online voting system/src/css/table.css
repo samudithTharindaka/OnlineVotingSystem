@@ -1,0 +1,25 @@
+.table-all {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.table-all th, .table-all td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-all th {
+  background-color: #e0d1d9;
+}
+
+.table-all tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-all tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.table-all tr:hover {
+  background-color: #e2e2e2;
+}
